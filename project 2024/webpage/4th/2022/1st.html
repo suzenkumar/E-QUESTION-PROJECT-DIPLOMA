@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSE TUTORIALS</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom CSS */
+        .navbar {
+            background-color: #343a40; /* Change navbar background color */
+        }
+
+        .navbar-brand, .navbar-nav .nav-link {
+            color: #ffffff !important; /* Change navbar text color */
+        }
+
+        .dropdown-menu a {
+            color: #000000 !important; /* Change dropdown menu text color */
+        }
+
+        .poppins-thin {
+            font-family: "Poppins", sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            margin-left:10px;
+        }
+
+        .dropdown-menu:hover{
+            border-radius: 10px;;
+            background-color:#927A7A;
+        }
+
+        body {
+            background-image:url('digital-background-cyber-security-background-free-vector.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+        }
+
+        iframe {
+            width: 100%;
+            height: 100vh; /* 100% of the viewport height */
+            border: none; /* Remove border */
+        }
+
+        .list-group {
+            overflow-y: auto; /* Enable vertical scrolling */
+            max-height: calc(100vh - 56px);
+           /* Subtract the height of the navbar */
+        }
+
+        .list-group-item {
+            border: none; /* Remove border */
+            background-color: #f8f9fa; /* Set background color */
+            transition: background-color 0.3s ease;
+            text-align:center;
+            margin-top:  40px; /* Smooth transition on hover */
+        }
+
+        .list-group-item:hover {
+            background-color: #1b2e41; 
+            border-radius: 20px;
+            border:3px solid blue;
+            font-weight: bold;
+            /* Change background color on hover */
+        }
+        .col-lg-2{
+            align-items: center;
+            background-color: #343a40;
+        }
+      
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand poppins-thin" href="#">E-questions</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    QUESTIONS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="">1st Sem </a>
+                    <a class="dropdown-item" href="">2nd Sem </a>
+                    <a class="dropdown-item" href="1st.html">3rd Sem </a>
+                    <a class="dropdown-item" href="1st.html">4th Sem </a>
+                    <a class="dropdown-item" href="">5th Sem </a>
+                    <a class="dropdown-item" href="">6th Sem </a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="faculity.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT US</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-2">
+      <div class="list-group">
+        <a href="1st.html" class="list-group-item list-group-item-action"  name="fg1" >THEORY 1</a>
+        <a href="2nd.html" class="list-group-item list-group-item-action"  >THEORY 2</a>
+        <a href="3rd.html" class="list-group-item list-group-item-action">THEORY 3</a>
+        <a href="4th.html" class="list-group-item list-group-item-action">THEORY 4</a>
+        
+      </div>
+    </div>
+
+    <div class="col-lg-10">
+      <iframe src="1.html" name="fg1" allowfullscreen></iframe>
+    </div>
+    
+  </div>
+</div>
+
+</body>
+</html>
