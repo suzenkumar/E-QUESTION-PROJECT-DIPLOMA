@@ -1,2 +1,2 @@
 # E-QUESTION-PROJECT-DIPLOMA
-It Help People For Extra Learning make more instacting
+It helps students practice effectively for exams and improve their performance!
